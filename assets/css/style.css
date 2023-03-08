@@ -1,5 +1,42 @@
-h1{
-    font-size: 3.75rem;
-    font-weight: 700;
-    color:rgb #00ff00;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62,5%
+}
+
+header{
+    height: 100vh;
+    background-image: url('../images/connor-coyne-OgqWLzWRSaI-unsplash.jpg');
+    background-size: cover;
+    color: #fff;
+    padding-top: 5rem;
+    padding-left: 2rem;
+}
+
+h1 {
+    font-family: 'Poppins';
+    font-weight: 900;
+    font-size: 6rem;
+}
+
+span {
+    font-family: 'Montserrat';
+    font-size: 4.5rem;
+}
+
+.botao{
+    padding: 1.4rem 11rem;
+    background: #7300E7;
+    border-radius: 100px;
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    color:#fff;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0,.25);
+    text-decoration: none;
 }
